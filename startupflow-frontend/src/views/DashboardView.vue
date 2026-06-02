@@ -1,3 +1,9 @@
+<script setup>
+// Import dashboard content component
+import DashboardContent from '../components/dashboard/DashBoardContent.vue'
+</script>
+
 <template>
-  <h2>Login</h2>
+  <!-- Show dashboard UI -->
+  <DashboardContent />
 </template>
